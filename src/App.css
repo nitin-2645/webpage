@@ -1,38 +1,320 @@
-.App {
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main {
+  width: 100%;
+  /* background-image:  */
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url("1.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 3000px;
+}
+
+.navbar {
+  width: 1200px;
+  height: 75px;
+  margin-left: 120px;
+}
+
+.logo {
+  color: orange;
+  font-size: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+  padding-left: 20px;
+  padding-top: 40px;
+}
+
+.icon {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+.menu {
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li {
+  list-style: none;
+  margin-top: 62px;
+  font-size: 80px;
+  margin-left: 400px;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding-left: 10px;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+  color: orange;
+}
+.search {
+  margin-left: 4600px;
+  height: 40px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 500px;
+}
+/* }
+.srch{
+    display: flex;
+    
+    width: 200px;
+    height: 40px;
+    
+    padding-left: 400px;
+    margin-left: 3200px;
+    margin-top: 200px;
+    float: left;
+}
+.btn{
+    display: flex;
+    width: 200px;
+    height: 100px;
+    color: green;
+    font-size: 100px;
+    margin-left: 4000px;
+    margin-bottom: 1px;
+
+} */
+.btn {
+  display: flex;
+  flex-direction: row;
+  margin-left: 4px;
+  height: 100px;
+  width: 400px;
+  padding: 45px;
+  margin-left: 50px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  padding-top: 50px;
+  align-items: center;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.srch {
+  font-family: "Times New Roman";
+  width: 400px;
+  height: 100px;
+  background: transparent;
+  color: white;
+  border-right: none;
+  font-size: 60px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border: 1px solid red;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn:focus {
+  outline: none;
 }
+/* .srch:focus{
+    outline: none;
+} */
+/* .content{
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+.content.par{ 
+    padding-left: 20px;
+    padding-bottom: 25px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    font-family:  'Arial Narrow'
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9px;
+    letter-spacing: 2px;
+    
+}
+h1{
+    height: 50px;
+    font-size: 100px;
+    
+
+} */
+.content {
+  height: 100px;
+  /* width: 100px; */
   color: white;
 }
+.content h1 {
+  height: 100px;
+  font-size: 150px;
+}
+h1 {
+  height: 100px;
+  margin-left: 40px;
+}
+.par {
+  height: 50px;
+  margin-top: 500px;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+.cn {
+  width: 400px;
+  height: 150px;
+  margin-top: 450px;
+  background-color: orange;
+  color: red;
+  font-size: 50px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 2s ease-in-out;
+}
+.cn a {
+  text-decoration: none;
+  color: black;
+  transition: 2s ease-in-out;
+}
+.cn:hover {
+  background-color: white;
+}
+span {
+  color: orange;
+}
+.form {
+  width: 900px;
+  height: 1500px;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 50%,
+    rgba(0, 0, 0, 0.8) 50%
+  );
+  position: absolute;
+  top: 700px;
+  left: 4500px;
+  font-size: 50px;
+  /* padding: 10px;
+    padding-left: 200px;
+    padding-top: 50px; */
+}
+h2 {
+  font-size: 100px;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: orange;
+  color: white;
+  border-radius: 10px;
+  margin: 2px;
+  padding: 8px;
+  /* padding-top: 50px;
+    padding-left: 100px; */
+  width: 850px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 200px;
+  margin-bottom: 20px;
+}
+input {
+  width: 500px;
+  height: 150px;
+  background: transparent;
+  border-bottom: 1px solid orange;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-left: 200px;
+  color: white;
+  margin-top: 80px;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+}
+input:focus {
+  outline: none;
+}
+::placeholder {
+  color: white;
+}
+.btnn {
+  width: 500px;
+  height: 100px;
+  background: orange;
+  margin-top: 50px;
+  margin-left: 200px;
+  font-size: 60px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  transition: 1s ease-in-out;
+}
+.btnn:hover {
+  background-color: white;
+}
+.btnn a {
+  text-decoration: none;
+  font-weight: bold;
+}
+.Link {
+  text-align: center;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 90px;
+}
+.Link a {
+  text-decoration: none;
+  color: orange;
+  text-align: center;
+}
+.liw {
+  text-align: center;
+}
+/* .icon{
+    width: 10px;
+    height: 20px;
+    margin-left: 30px;
+    font-size: 50px;
 
-.App-link {
-  color: #61dafb;
+}
+.icon a{
+    color: white;
+    text-decoration: none;
+}
+.fa-brands{
+    font-size: 80px;
+    padding-left: 60px;
+} */
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 50px;
+  font-size: 100px;
+  margin-top: 50px;
+  display: flex;
+}
+.icon a {
+  color: white;
+  text-decoration: none;
+  margin-left: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon .fa-brands:hover {
+  color: orange;
+  cursor: pointer;
+  transition: 0.2s eas;
 }
